@@ -1,0 +1,36 @@
+---
+# List of ticker symbols to start app with
+symbols:
+  - ^GSPC
+  - ^NDX
+  - ^DJI
+  - ^KS11
+  - ES=F
+  - YM=F
+  - NQ=F
+  - KRW=X
+
+# Chart type to start app with
+# Default is line
+# Possible values: line, candle, kagi
+chart_type: candle
+
+time_frame: 1D
+
+update_interval: 1
+
+enable_pre_post: true
+
+hide_help: true
+
+hide_prev_close: true
+
+hide_toggle: true
+
+show_volumes: true
+
+show_x_labels: true
+
+summary: true
+
+trunc_pre: true
