@@ -1,0 +1,6 @@
+If system-software-install-symbolic.svg is present in /Adwaita/symbolic/legacy/ folder, 
+it will have the priority over the file placed in the /Adwaita-Red/16x16/legacy/ folder. 
+As a result, PCManFM will not use 
+/Adwaita-Red/16x16/legacy/system-software-install-symbolic.svg icon.
+
+Adwaita/symbolic/legacy/system-software-install-symbolic.svg
