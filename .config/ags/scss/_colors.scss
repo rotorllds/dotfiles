@@ -25,20 +25,20 @@ $white: white;
 
 /// Color mappings for more chaotic, dynamic colors like the average rice ///
 // General
-$layer0: $background;
-$onLayer0: $onBackground;
+$layer0: #AFA8F0;
+$onLayer0: #494B80;
 $layer0Hover: mix($layer0, $onLayer0, 85%);
-$layer0Active: $surfaceContainerHigh;
-$onLayer0Active: $onSurface;
+$layer0Active: #AFA8F0;
+$onLayer0Active: #494B80;
 $onLayer0Inactive: mix($onLayer0, $layer0, 70%);
-$layer1: $surfaceContainerLow;
-$onLayer1: $onSurface;
+$layer1: #AFA8F0;
+$onLayer1: #494B80;
 $onLayer1Inactive: mix($onLayer1, $layer1, 45%);
-$onLayer1: $onSurfaceVariant;
-$layer2: mix($surfaceContainer, $surfaceContainerHigh, 55%);
-$onLayer2: $onSurface;
-$layer3: mix($surfaceContainerHigh, $onSurface, 96%);
-$onLayer3: $onSurface;
+$onLayer1: #494B80;
+$layer2: #AFA8F0;
+$onLayer2: #494B80;
+$layer3: #AFA8F0;
+$onLayer3: #494B80;
 $layer1Hover: mix($layer1, $onLayer1, 85%);
 $layer1Active: mix($layer1, $onLayer1, 70%);
 $layer2Hover: mix($layer2, $onLayer2, 90%);
