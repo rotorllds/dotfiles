@@ -46,9 +46,31 @@ disabled = false
 # represents the current operating system
 [os]
 style = "bold bg:none"
-format = '[󰣇]($style)'
+format = '[$symbol]($style)'
 disabled = false # Disabled by default
 
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+EndeavourOS = ""
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+Pop = ""
 
 [directory]
 style = "bg:#DA627D"
